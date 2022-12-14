@@ -133,13 +133,16 @@ header {
   font-weight: 800;
 }
 .slide h2 {
-  font-weight: 500;
+  font-weight: 700;
 }
 .slide p {
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 1.9rem;
   margin-bottom: 0;
   letter-spacing: 2px;
+  color: #1a4164;
+  font-weight: 700;
+  font-size: 1.6;
 }
 .slide .btn-custom {
   color: #eeeeee;
@@ -184,6 +187,7 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  margin: 0 auto;
 }
 .summary .icon_style .icon {
   font-size: 2.5rem;
@@ -216,6 +220,19 @@ header {
   /* width: 100px; */
   /* height: 100px; */
   /* margin: 0 auto; */
+}
+.welcome .play-button {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+}
+.welcome .play-button .wrapper {
+  width: 5vw;
+}
+.welcome .play-button .text-play {
+  letter-spacing: 2px;
+  margin-left: -1vw;
 }
 .wrapper .circle {
   width: 55px;
@@ -281,10 +298,10 @@ header {
 /* ourBusiness */
 .ourBusiness {
   box-sizing: border-box;
+  height: fit-content;
 }
-.ourBusiness .content-1 .item {
-  /* justify-content: left; */
-  justify-content: space-between;
+.ourBusiness .content-1 {
+  height: fit-content;
 }
 .ourBusiness .content-1 .item {
   justify-content: center;
@@ -314,28 +331,29 @@ header {
   line-height: 1.3rem;
 }
 
-.ourBusiness .item2,
-.ourBusiness .item1 {
-  height: fit-content;
+.ourBusiness .item2 {
+  /* width: 100%; */
+  min-height: 30vw;
+  /* background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9999; */
 }
-.ourBusiness img {
-  width: 100%;
-  height: 100%;
-}
+
 
 /*End ourBusiness */
 
 /* Number */
 
-.number_S{
-  background-color: #F4F4F4;
+.number_S {
+  background-color: #f4f4f4;
   padding: 4rem 0;
 }
-.number_S .add-plus::after{
+.number_S .add-plus::after {
   content: "+";
-  padding-left:5px ;
+  padding-left: 5px;
 }
-.number_S .number__content p{
+.number_S .number__content p {
   font-size: 1.3rem;
   font-weight: 600;
   letter-spacing: 1px;
@@ -372,13 +390,13 @@ header {
 .ourClients {
   width: 100vw;
   overflow-x: hidden;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 .ourClients .content {
-  width: 50%;
+  /* width: 50%; */
   padding: 3rem 2rem 1rem 0;
 }
-.ourClients .info{
+.ourClients .info {
   padding: 2rem;
   background-color: #fff;
   border-radius: 5px;
@@ -397,7 +415,7 @@ header {
   font-weight: 500;
 }
 .ourClients .body {
-  padding: 0 7% 0 0 ;
+  padding: 0 7% 0 0;
   font-style: italic;
   font-size: 0.85rem;
   line-height: 1.5rem;
@@ -419,6 +437,12 @@ header {
   color: #222222;
   text-transform: uppercase;
   padding-top: 60px;
+}
+#footer img {
+  height: 180px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #footer h5 {
   padding-left: 10px;
