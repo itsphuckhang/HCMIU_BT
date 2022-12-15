@@ -779,3 +779,7 @@ img {
 .p-a10 {
   min-height: unset;
 }
+
+.program {
+  margin-left: 60px !important;
+}
